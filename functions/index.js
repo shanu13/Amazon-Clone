@@ -14,7 +14,7 @@ const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 // eslint-disable-next-line max-len
-const stripe = require("stripe")('sk_test_51IZFY8SJTfzjoXuIdZcXx7Vx5R6zbjQiQPqG0yqIc1pEbZ6BTLnLkFC3ZVfErXhQ1zOgYQo93tQVkeRkiodoP04t00rsD2sKL4');
+const stripe = require("stripe")('********************************************************************'); //stripe key
 
 // app config
 const app = express();
