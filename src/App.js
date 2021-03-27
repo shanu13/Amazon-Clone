@@ -14,7 +14,7 @@ import { loadStripe } from  '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js'
 import Orders from "./Orders";
 
-const stripePromise = loadStripe('********************************************************************************') // stripe key
+const stripePromise = loadStripe('********************************************************************************') // stripe api id 
 
 function App() {
 
